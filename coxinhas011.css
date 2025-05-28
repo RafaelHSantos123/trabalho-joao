@@ -1,0 +1,140 @@
+body{
+    background-color: #ffcc80;
+    color: #fd3300;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    color: #fd3300;
+    background-color:#ffcc80;;
+    text-decoration: none;
+    padding: 3px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fd3300;
+    margin-left: 0;
+    justify-items: start;
+    align-self: start;
+    
+}
+
+h1{
+    text-align: center;
+}
+.centro {
+    text-align: center;
+
+}
+hr {
+    border-color: #fd3300;
+    border-style: groove;
+    
+}
+
+footer button{
+    width:5%;
+    height: 5%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffcc80;
+    border: 1px solid #f7b24c;
+
+}
+
+footer{
+    
+    background-color:#fd3300;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.esquerdo, .direita{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}
+.esquerdo{
+    align-items:flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    border: 2px solid #fd3300;
+    border-radius: 10%;
+    align-self: start;
+
+}
+.direita {
+    text-align: center;
+    justify-content: flex-end;
+    border: 2px solid #fd3300 ;
+    border-radius:10%;
+    justify-items: flex-start;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 25px;
+    
+}
+
+nav{
+ bottom: 5%;
+ border: #f7b24c;
+}
+
+.bah{
+    border-bottom: 0px solid red;
+    padding-right: 200px;
+    margin: 20px;
+
+}
+.Bon{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid #fd3300;
+
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border: #f70000;
+    
+
+}
+.item {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 10px; 
+    padding: 10px 0 ;
+    border-bottom: 2px solid #f70000;
+}
+.bah:nth-child(2) .item {
+    background-color: #f1bb0a;  
+    padding: 10px;              
+    border-radius: 8px;         
+}
